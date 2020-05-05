@@ -1,4 +1,4 @@
-import stripePackage from 'stripe'
+import stripePackage from 'stripe';
 import handler from "./libs/handler-libs";
 import { calculateCost } from "./libs/billing-libs";
 
@@ -17,5 +17,5 @@ export const main = handler(async (event, context) => {
         currency: "usd"
     });
 
-    return { status: true }
+    return { status: true };
 });

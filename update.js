@@ -2,7 +2,7 @@ import handler from "./libs/handler-libs";
 import dynamodb from "./libs/dynamodb-libs";
 
 export const main = handler(async (event, context) => {
-
+    const data = JSON.parse(event.body);
     const params = {
       TableName: process.env.TableName,
       Key: {
