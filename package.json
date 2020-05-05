@@ -17,5 +17,8 @@
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "aws-sdk": "^2.669.0",
+    "uuid": "^8.0.0"
+  }
 }
